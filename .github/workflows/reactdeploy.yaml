@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Install Nodejs
-    - uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: 12
     - uses: borales/actions-yarn@v2.0.0
@@ -34,7 +34,7 @@ jobs:
     - name: install Surge 
       run: npm install --global Surge
     - name: Deploy to  Surge 
-        run:surge ./build react-waqarazeem.surge.su ${{secrets.react}}
+      run: surge ./build react-waqarazeem.surge.su ${{secrets.react}}
 
 
     # Runs a single command using the runners shell
