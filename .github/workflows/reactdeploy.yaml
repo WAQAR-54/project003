@@ -34,7 +34,7 @@ jobs:
     - name: install Surge 
       run: npm install --global Surge
     - name: Deploy to  Surge 
-      run: surge ./build react-waqarazeem.surge.su ${{secrets.react}}
+      run: surge ./build react-waqarazeem.surge.su --token ${{secrets.react}}
 
 
     # Runs a single command using the runners shell
