@@ -7,8 +7,8 @@ name: React app Deploy to Surge
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  #pull_request:
+   # branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,7 +22,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
-    - name: Install Node.js
+    - name: Install Nodejs
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
@@ -34,7 +34,7 @@ jobs:
     - name: install Surge 
       run: npm install --global Surge
     - name: Deploy to  Surge 
-        run:surge ./build react-waqarazeem.surge.sh --token ${{secrets.react}}
+        run:surge ./build react-waqarazeem.surge.su ${{secrets.react}}
 
 
     # Runs a single command using the runners shell
