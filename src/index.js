@@ -8,6 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  <div>Hello Waqar Why You are new Here</div>,
   document.getElementById('root')
 );
 
