@@ -11,6 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           <b>Created by Waqar Azeem</b>
         </p>
+        <div>Last Update by Waqar</div>
         <a
           className="App-link"
           href="https://reactjs.org"
