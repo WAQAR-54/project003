@@ -10,8 +10,8 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
  
   <div>Hello Word
-
-    <App name="Zia Khan" age={-250*23}/>
+<strong>Waqar</strong>
+    <App name="Zia Khan" age={23*23}/>
   </div>,
   
   document.getElementById('root')
