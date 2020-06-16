@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
 
-function App(data) {
-  return  <div >Hello World from App.js  Updated
+function App({name,age}) {
+  return  <div >
+    Hello World from App.js  Updated
 
-<div>Second Div for print Data {data.name} age={data.age}</div>
+<div>Second Div for print Data {name} your age={age}</div>
+<br/>
+<Hello firstname={name}></Hello>
   </div>
 }
 
