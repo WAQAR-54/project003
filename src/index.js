@@ -4,13 +4,26 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+
+
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
-  <div>Hello Waqar Why You are new </div>,
+ 
+  <div>Hello Word
+
+    <App name="Zia Khan" age={-250*23}/>
+  </div>,
+  
   document.getElementById('root')
 );
+
+// ReactDOM.render(
+ 
+//   React.createElement('div',null,"hello from react "),
+  
+//   document.getElementById('root')
+// );
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
