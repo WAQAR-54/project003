@@ -1,4 +1,13 @@
-.name{
-    background-color: blue;
-    color: white;
+.name2{
+    background-color: green;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 50px;
+}
+.para{
+    text-align: center;
+    margin-right: 100px;
 }
