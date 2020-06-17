@@ -5,22 +5,18 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 
-
-
 ReactDOM.render(
- 
-  <div>Hello Word
-<strong>Waqar</strong>
-    <App name="Zia Khan" age={23*23}/>
+  <div>
+  <h1 className="heading">CV</h1>
+
+    <App/>
   </div>,
   
   document.getElementById('root')
 );
 
 // ReactDOM.render(
- 
 //   React.createElement('div',null,"hello from react "),
-  
 //   document.getElementById('root')
 // );
 
