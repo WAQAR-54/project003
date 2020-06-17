@@ -1,0 +1,33 @@
+.name2{
+    background-color: green;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+h1 ,p {
+    margin-left: 50px;
+    
+}
+h3{
+    color: red;
+    text-align: center;
+}
+
+.para{
+    text-align: center;
+    margin-right: 100px;
+}
+.edu{
+    text-align: center;
+
+}
+h4{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.head{
+  align-items: center;
+text-align: center;
+margin-left: 500px;
+}
